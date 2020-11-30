@@ -64,7 +64,7 @@
             this.btn_AddLocalPermission.Name = "btn_AddLocalPermission";
             this.btn_AddLocalPermission.Size = new System.Drawing.Size(261, 55);
             this.btn_AddLocalPermission.TabIndex = 3;
-            this.btn_AddLocalPermission.Text = "Add Local Permission";
+            this.btn_AddLocalPermission.Text = "Add user to group";
             this.btn_AddLocalPermission.UseVisualStyleBackColor = true;
             this.btn_AddLocalPermission.Click += new System.EventHandler(this.btn_AddLocalPermission_Click);
             // 
@@ -74,7 +74,7 @@
             this.btn_DeleteLocalPermission.Name = "btn_DeleteLocalPermission";
             this.btn_DeleteLocalPermission.Size = new System.Drawing.Size(261, 55);
             this.btn_DeleteLocalPermission.TabIndex = 4;
-            this.btn_DeleteLocalPermission.Text = "Delete Local Permission";
+            this.btn_DeleteLocalPermission.Text = "Delete user from group";
             this.btn_DeleteLocalPermission.UseVisualStyleBackColor = true;
             this.btn_DeleteLocalPermission.Click += new System.EventHandler(this.btn_DeleteLocalPermission_Click);
             // 
@@ -84,7 +84,7 @@
             this.btn_DeleteLocalGroup.Name = "btn_DeleteLocalGroup";
             this.btn_DeleteLocalGroup.Size = new System.Drawing.Size(261, 55);
             this.btn_DeleteLocalGroup.TabIndex = 6;
-            this.btn_DeleteLocalGroup.Text = "Delete Local Group ";
+            this.btn_DeleteLocalGroup.Text = "Delete Group ";
             this.btn_DeleteLocalGroup.UseVisualStyleBackColor = true;
             // 
             // btn_AddLocalGroup
@@ -93,7 +93,7 @@
             this.btn_AddLocalGroup.Name = "btn_AddLocalGroup";
             this.btn_AddLocalGroup.Size = new System.Drawing.Size(261, 55);
             this.btn_AddLocalGroup.TabIndex = 5;
-            this.btn_AddLocalGroup.Text = "Add Local Group";
+            this.btn_AddLocalGroup.Text = "Add Group";
             this.btn_AddLocalGroup.UseVisualStyleBackColor = true;
             this.btn_AddLocalGroup.Click += new System.EventHandler(this.btn_AddGroup_Click);
             // 
@@ -103,7 +103,7 @@
             this.btn_ShowGroup.Name = "btn_ShowGroup";
             this.btn_ShowGroup.Size = new System.Drawing.Size(261, 55);
             this.btn_ShowGroup.TabIndex = 8;
-            this.btn_ShowGroup.Text = "Delete Local Group ";
+            this.btn_ShowGroup.Text = "Show Group ";
             this.btn_ShowGroup.UseVisualStyleBackColor = true;
             this.btn_ShowGroup.Click += new System.EventHandler(this.btn_ShowGroup_Click);
             // 

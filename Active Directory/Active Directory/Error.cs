@@ -16,7 +16,6 @@ namespace Active_Directory
         {
             InitializeComponent();
             tb_Messege.Text = Messege;
-
         }
 
         private void tb_Messege_TextChanged(object sender, EventArgs e)

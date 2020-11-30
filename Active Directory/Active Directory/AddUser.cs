@@ -14,7 +14,8 @@ namespace Active_Directory
     {
         string username;
         string password = "Test123!";
-        string umlauts = " äÄöÖüÜ!\"$%&/()=?²³{[]}\\@+*~#';,-_";
+        string specialChar = " äÄöÖüÜ!\"$%&/()=?²³{[]}\\@+*~#';,-_";
+
         public AddUser()
         {
             InitializeComponent();
@@ -22,21 +23,21 @@ namespace Active_Directory
 
         private void btn_Add_Click(object sender, EventArgs e)
         {
-
             try
             {
                 username = tb_user.Text;
+
                 if (username != "")
                 {
-                    if(username.Contains(umlauts))
+                    if(username.Contains(specialChar))
                     {
-                        throw new ArgumentException("Bitte Username ohne diese zeichen; "+ umlauts +" eingeben");
+                        throw new ArgumentException("Username should not include special characters!");
                     }
-                    System.Diagnostics.Process.Start("cmd", "/c " + "net user " + username + " " + password + " /add");
+                    System.Diagnostics.Process.Start("cmd", "/c " + "net user " + username + " " + password + " /add /domain");
                 }
                 else
                 {
-                  throw new ArgumentException("Bitte Username eingeben");
+                  throw new ArgumentException("Please insert username!");
                 }
             }
             catch(Exception ex)
@@ -44,12 +45,6 @@ namespace Active_Directory
                 Error error = new Error(ex.ToString());
                 error.Show();
             }
-
-
-
-
-
-
         }
 
         private void btn_Back_Click(object sender, EventArgs e)

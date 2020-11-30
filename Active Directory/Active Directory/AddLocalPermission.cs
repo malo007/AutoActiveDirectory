@@ -30,11 +30,11 @@ namespace Active_Directory
 
                 if (tb_user.Text != "" && tb_Group.Text != "")
                 {
-                    System.Diagnostics.Process.Start("cmd", "/c " + "net localgroup " + tb_Group.Text +" "+ tb_user.Text + " /add");
+                    System.Diagnostics.Process.Start("cmd", "/c " + "net group " + tb_Group.Text +" "+ tb_user.Text + " /add /domain");
                 }
                 else
                 {
-                    throw new ArgumentException("Bitte geben sie was in den zeilen ein!");
+                    throw new ArgumentException("Please insert username and groupname!");
                 }
             }
             catch (Exception ex)

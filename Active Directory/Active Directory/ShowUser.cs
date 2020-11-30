@@ -21,14 +21,13 @@ namespace Active_Directory
         {
             try
             {
-
                 if (tb_user.Text != "")
                 {
                     System.Diagnostics.Process.Start("cmd", "/k " + "net user " + tb_user.Text );
                 }
                 else
                 {
-                    throw new ArgumentException("Bitte User eingeben");
+                    throw new ArgumentException("Please insert user!");
 
 
                 }

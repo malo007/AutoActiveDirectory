@@ -24,11 +24,11 @@ namespace Active_Directory
 
                 if (tb_Group.Text != "")
                 {
-                    System.Diagnostics.Process.Start("cmd", "/c " + "net localgroup " + tb_Group.Text + " /add");
+                    System.Diagnostics.Process.Start("cmd", "/c " + "net group " + tb_Group.Text + " /add /domain");
                 }
                 else
                 {
-                    throw new ArgumentException("Bitte Gruppe eingeben");
+                    throw new ArgumentException("Please insert group name!");
 
 
                 }

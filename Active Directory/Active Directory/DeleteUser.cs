@@ -28,15 +28,14 @@ namespace Active_Directory
             try
             {
                 username = tb_user.Text;
-                if (tb_user.Text != tb_confirmusername.Text)
+
+                if (username != tb_confirmusername.Text)
                 {
-                    
-                    throw new ArgumentException("Bitte Username strimt nicht überein");
+                    throw new ArgumentException("Please confirm the right username!");
                 }
                 else
                 {
-                    System.Diagnostics.Process.Start("cmd", "/c " + "net user "+ username +" /delete");
-                    
+                    System.Diagnostics.Process.Start("cmd", "/c " + "net user "+ username +" /delete /domain");   
                 }
             }
             catch(Exception ex)
@@ -47,4 +46,3 @@ namespace Active_Directory
         }
     }
 }
-

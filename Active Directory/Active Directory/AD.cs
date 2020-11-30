@@ -21,7 +21,6 @@ namespace Active_Directory
         {
             AddUser addUser = new AddUser();
             addUser.ShowDialog();
-
         }
 
         private void btn_DeleteUser_Click(object sender, EventArgs e)
@@ -56,7 +55,7 @@ namespace Active_Directory
 
         private void btn_ShowGroup_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("cmd", "/k " + "net localgroup");
+            System.Diagnostics.Process.Start("cmd", "/k " + "net group");
         }
     }
 }

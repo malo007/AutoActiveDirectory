@@ -15,3 +15,21 @@ C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Debug\Active_Di
 C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Debug\Active_Directory.DeleteLocalGroup.resources
 C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Debug\Active_Directory.DeleteLocalPermission.resources
 C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Debug\Active_Directory.ShowUser.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\bin\Debug\Active Directory.exe.config
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\bin\Debug\Active Directory.exe
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\bin\Debug\Active Directory.pdb
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active Directory.csprojAssemblyReference.cache
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.AddLocalGroup.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.AddLocalPermission.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.AddUser.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.DeleteLocalGroup.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.DeleteLocalPermission.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.DeleteUser.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.Error.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.AD.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.Properties.Resources.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active_Directory.ShowUser.resources
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active Directory.csproj.GenerateResource.cache
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active Directory.csproj.CoreCompileInputs.cache
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active Directory.exe
+E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active Directory.pdb

@@ -24,11 +24,11 @@ namespace Active_Directory
 
                 if (tb_User.Text != "" && tb_Group.Text != "")
                 {
-                    System.Diagnostics.Process.Start("cmd", "/c " + "net localgroup " + tb_Group.Text + " " + tb_User.Text + " /delete");
+                    System.Diagnostics.Process.Start("cmd", "/c " + "net group " + tb_Group.Text + " " + tb_User.Text + " /delete /domain");
                 }
                 else
                 {
-                    throw new ArgumentException("Bitte geben sie was in den zeilen ein!");
+                    throw new ArgumentException("Please insert valid user and group!");
                 }
             }
             catch (Exception ex)
