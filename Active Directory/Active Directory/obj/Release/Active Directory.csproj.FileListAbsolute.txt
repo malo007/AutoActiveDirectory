@@ -1,0 +1,10 @@
+C:\Users\majo\source\repos\Active Directory\Active Directory\bin\Release\Active Directory.exe.config
+C:\Users\majo\source\repos\Active Directory\Active Directory\bin\Release\Active Directory.exe
+C:\Users\majo\source\repos\Active Directory\Active Directory\bin\Release\Active Directory.pdb
+C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Release\Active_Directory.AddUser.resources
+C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Release\Active_Directory.Error.resources
+C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Release\Active_Directory.AD.resources
+C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Release\Active_Directory.Properties.Resources.resources
+C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Release\Active Directory.csproj.GenerateResource.cache
+C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Release\Active Directory.exe
+C:\Users\majo\source\repos\Active Directory\Active Directory\obj\Release\Active Directory.pdb
