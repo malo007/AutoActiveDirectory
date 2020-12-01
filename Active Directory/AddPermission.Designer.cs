@@ -90,7 +90,7 @@
             this.btn_Add.UseVisualStyleBackColor = true;
             this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
-            // AddLocalPermission
+            // AddPermission
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,8 +101,8 @@
             this.Controls.Add(this.label_Username);
             this.Controls.Add(this.tb_user);
             this.Controls.Add(this.btn_Add);
-            this.Name = "AddLocalPermission";
-            this.Text = "AddLocalPermission";
+            this.Name = "AddPermission";
+            this.Text = "Add Permission";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -69,7 +69,7 @@
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(222, 50);
             this.btn_Delete.TabIndex = 8;
-            this.btn_Delete.Text = "delete";
+            this.btn_Delete.Text = "Delete";
             this.btn_Delete.UseVisualStyleBackColor = true;
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
@@ -102,7 +102,7 @@
             this.Controls.Add(this.tb_user);
             this.Controls.Add(this.btn_Delete);
             this.Name = "DeleteUser";
-            this.Text = "DeleteUser";
+            this.Text = "Delete User";
             this.ResumeLayout(false);
             this.PerformLayout();
 

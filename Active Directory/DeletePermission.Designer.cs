@@ -85,11 +85,11 @@
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(222, 50);
             this.btn_Delete.TabIndex = 14;
-            this.btn_Delete.Text = "delete";
+            this.btn_Delete.Text = "Delete";
             this.btn_Delete.UseVisualStyleBackColor = true;
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
-            // DeleteLocalPermission
+            // DeletePermission
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,8 +100,8 @@
             this.Controls.Add(this.label_Username);
             this.Controls.Add(this.tb_User);
             this.Controls.Add(this.btn_Delete);
-            this.Name = "DeleteLocalPermission";
-            this.Text = "DeleteLocalPermission";
+            this.Name = "DeletePermission";
+            this.Text = "Delete Permission";
             this.ResumeLayout(false);
             this.PerformLayout();
 

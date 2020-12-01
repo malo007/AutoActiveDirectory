@@ -67,11 +67,11 @@
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(222, 50);
             this.btn_Delete.TabIndex = 20;
-            this.btn_Delete.Text = "delete";
+            this.btn_Delete.Text = "Delete";
             this.btn_Delete.UseVisualStyleBackColor = true;
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
-            // DeleteLocalGroup
+            // DeleteGroup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -80,8 +80,8 @@
             this.Controls.Add(this.tb_Group);
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.btn_Delete);
-            this.Name = "DeleteLocalGroup";
-            this.Text = "DeleteLocalGroup";
+            this.Name = "DeleteGroup";
+            this.Text = "Delete Group";
             this.ResumeLayout(false);
             this.PerformLayout();
 

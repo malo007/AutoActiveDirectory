@@ -14,7 +14,6 @@ namespace Active_Directory
     {
         string username;
         string password = "Test123!";
-        string specialChar = " äÄöÖüÜ!\"$%&/()=?²³{[]}\\@+*~#';,-_";
 
         public AddUser()
         {
@@ -29,10 +28,6 @@ namespace Active_Directory
 
                 if (username != "")
                 {
-                    if(username.Contains(specialChar))
-                    {
-                        throw new ArgumentException("Username should not include special characters!");
-                    }
                     System.Diagnostics.Process.Start("cmd", "/c " + "net user " + username + " " + password + " /add /domain");
                 }
                 else

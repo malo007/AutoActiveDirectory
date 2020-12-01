@@ -121,7 +121,7 @@
             this.Controls.Add(this.tb_user);
             this.Controls.Add(this.btn_SwitchGroup);
             this.Name = "SwitchUserGroup";
-            this.Text = "SwitchUserGroup";
+            this.Text = "Switch User Group";
             this.ResumeLayout(false);
             this.PerformLayout();
 

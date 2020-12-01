@@ -66,7 +66,7 @@
             this.btn_AddLocalPermission.Name = "btn_AddLocalPermission";
             this.btn_AddLocalPermission.Size = new System.Drawing.Size(261, 55);
             this.btn_AddLocalPermission.TabIndex = 3;
-            this.btn_AddLocalPermission.Text = "Add user to group";
+            this.btn_AddLocalPermission.Text = "Add User to Group";
             this.btn_AddLocalPermission.UseVisualStyleBackColor = true;
             this.btn_AddLocalPermission.Click += new System.EventHandler(this.btn_AddLocalPermission_Click);
             // 
@@ -76,7 +76,7 @@
             this.btn_DeleteLocalPermission.Name = "btn_DeleteLocalPermission";
             this.btn_DeleteLocalPermission.Size = new System.Drawing.Size(261, 55);
             this.btn_DeleteLocalPermission.TabIndex = 4;
-            this.btn_DeleteLocalPermission.Text = "Delete user from group";
+            this.btn_DeleteLocalPermission.Text = "Delete User from Group";
             this.btn_DeleteLocalPermission.UseVisualStyleBackColor = true;
             this.btn_DeleteLocalPermission.Click += new System.EventHandler(this.btn_DeleteLocalPermission_Click);
             // 
@@ -135,7 +135,7 @@
             this.btn_ShowUserInGroup.Name = "btn_ShowUserInGroup";
             this.btn_ShowUserInGroup.Size = new System.Drawing.Size(261, 55);
             this.btn_ShowUserInGroup.TabIndex = 9;
-            this.btn_ShowUserInGroup.Text = "Show User In Group";
+            this.btn_ShowUserInGroup.Text = "Show User in Group";
             this.btn_ShowUserInGroup.UseVisualStyleBackColor = true;
             this.btn_ShowUserInGroup.Click += new System.EventHandler(this.btn_ShowUserInGroup_Click);
             // 

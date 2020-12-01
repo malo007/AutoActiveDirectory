@@ -50,7 +50,7 @@
             this.btn_SwitchGroup.Name = "btn_SwitchGroup";
             this.btn_SwitchGroup.Size = new System.Drawing.Size(222, 50);
             this.btn_SwitchGroup.TabIndex = 13;
-            this.btn_SwitchGroup.Text = "Show User In Group";
+            this.btn_SwitchGroup.Text = "Show User in Group";
             this.btn_SwitchGroup.UseVisualStyleBackColor = true;
             this.btn_SwitchGroup.Click += new System.EventHandler(this.btn_SwitchGroup_Click);
             // 
@@ -58,11 +58,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(75, 18);
+            this.label1.Location = new System.Drawing.Point(90, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 20);
             this.label1.TabIndex = 19;
             this.label1.Text = "Group";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tb_Group
             // 
@@ -81,7 +82,7 @@
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.btn_SwitchGroup);
             this.Name = "ShowUserInGroup";
-            this.Text = "ShowUserInGroup";
+            this.Text = "Show User in Group";
             this.ResumeLayout(false);
             this.PerformLayout();
 

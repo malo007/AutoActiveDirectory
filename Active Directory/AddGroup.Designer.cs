@@ -72,7 +72,7 @@
             this.btn_Add.UseVisualStyleBackColor = true;
             this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
-            // AddLocalGroup
+            // AddGroup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -81,8 +81,8 @@
             this.Controls.Add(this.tb_Group);
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.btn_Add);
-            this.Name = "AddLocalGroup";
-            this.Text = "AddLocalGroup";
+            this.Name = "AddGroup";
+            this.Text = "Add Group";
             this.ResumeLayout(false);
             this.PerformLayout();
 

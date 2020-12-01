@@ -86,14 +86,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(536, 257);
+            this.ClientSize = new System.Drawing.Size(536, 205);
             this.Controls.Add(this.btn_ShowAllUser);
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.label_Username);
             this.Controls.Add(this.tb_user);
             this.Controls.Add(this.btn_ShowUser);
             this.Name = "ShowUser";
-            this.Text = "ShowUser";
+            this.Text = "Show User";
             this.ResumeLayout(false);
             this.PerformLayout();
 

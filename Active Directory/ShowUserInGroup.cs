@@ -44,5 +44,10 @@ namespace Active_Directory
                 error.Show();
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
