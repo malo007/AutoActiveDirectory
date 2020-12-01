@@ -33,3 +33,22 @@ E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\A
 E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active Directory.csproj.CoreCompileInputs.cache
 E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active Directory.exe
 E:\Repositorys\AutoActiveDirectory\Active Directory\Active Directory\obj\Debug\Active Directory.pdb
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\bin\Debug\Active Directory.exe.config
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\bin\Debug\Active Directory.exe
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\bin\Debug\Active Directory.pdb
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active Directory.csprojAssemblyReference.cache
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.AddGroup.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.AddPermission.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.AddUser.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.DeleteGroup.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.DeletePermission.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.DeleteUser.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.Error.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.AD.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.Properties.Resources.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.ShowUser.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.ShowUserInGroup.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active_Directory.SwitchUserGroup.resources
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active Directory.csproj.GenerateResource.cache
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active Directory.exe
+C:\Users\majo\Documents\GitHub\AutoActiveDirectory\Active Directory\obj\Debug\Active Directory.pdb

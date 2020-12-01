@@ -104,6 +104,18 @@
     <Compile Include="ShowUser.Designer.cs">
       <DependentUpon>ShowUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="ShowUserInGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowUserInGroup.Designer.cs">
+      <DependentUpon>ShowUserInGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SwitchUserGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SwitchUserGroup.Designer.cs">
+      <DependentUpon>SwitchUserGroup.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddGroup.resx">
       <DependentUpon>AddGroup.cs</DependentUpon>
     </EmbeddedResource>
@@ -139,6 +151,12 @@
     </Compile>
     <EmbeddedResource Include="ShowUser.resx">
       <DependentUpon>ShowUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowUserInGroup.resx">
+      <DependentUpon>ShowUserInGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SwitchUserGroup.resx">
+      <DependentUpon>SwitchUserGroup.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

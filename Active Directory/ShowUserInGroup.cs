@@ -17,16 +17,32 @@ namespace Active_Directory
             InitializeComponent();
         }
 
-
-
-        private void btn_Add_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("cmd", "/k " + "net group " + tb_Group.Text);
-        }
-
         private void btn_Back_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btn_SwitchGroup_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                if (tb_Group.Text != "")
+                {
+                    System.Diagnostics.Process.Start("cmd", "/k " + "net group " + tb_Group.Text);
+                }
+                else
+                {
+                    throw new ArgumentException("Please insert group name!");
+
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Error error = new Error(ex.ToString());
+                error.Show();
+            }
         }
     }
 }

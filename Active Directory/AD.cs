@@ -63,5 +63,11 @@ namespace Active_Directory
             ShowUserInGroup showUserInGroup = new ShowUserInGroup();
             showUserInGroup.ShowDialog();
         }
+
+        private void btn_SwitchGroupForUser_Click(object sender, EventArgs e)
+        {
+            SwitchUserGroup switchUserGroup = new SwitchUserGroup();
+            switchUserGroup.ShowDialog();
+        }
     }
 }

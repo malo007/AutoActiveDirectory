@@ -127,6 +127,7 @@
             this.btn_SwitchGroupForUser.TabIndex = 10;
             this.btn_SwitchGroupForUser.Text = "Switch Group for User";
             this.btn_SwitchGroupForUser.UseVisualStyleBackColor = true;
+            this.btn_SwitchGroupForUser.Click += new System.EventHandler(this.btn_SwitchGroupForUser_Click);
             // 
             // btn_ShowUserInGroup
             // 
