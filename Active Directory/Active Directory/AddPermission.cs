@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Active_Directory
 {
-    public partial class AddLocalPermission : Form
+    public partial class AddPermission : Form
     {
-        public AddLocalPermission()
+        public AddPermission()
         {
             InitializeComponent();
         }

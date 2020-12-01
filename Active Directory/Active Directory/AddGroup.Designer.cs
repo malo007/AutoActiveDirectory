@@ -1,6 +1,6 @@
 ﻿namespace Active_Directory
 {
-    partial class AddLocalGroup
+    partial class AddGroup
     {
         /// <summary>
         /// Required designer variable.

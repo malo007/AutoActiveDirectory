@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Active_Directory
 {
-    public partial class DeleteLocalPermission : Form
+    public partial class DeletePermission : Form
     {
-        public DeleteLocalPermission()
+        public DeletePermission()
         {
             InitializeComponent();
         }

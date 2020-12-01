@@ -31,19 +31,19 @@ namespace Active_Directory
 
         private void btn_AddLocalPermission_Click(object sender, EventArgs e)
         {
-            AddLocalPermission addLocalPermission = new AddLocalPermission();
+            AddPermission addLocalPermission = new AddPermission();
             addLocalPermission.ShowDialog();
         }
 
         private void btn_DeleteLocalPermission_Click(object sender, EventArgs e)
         {
-            DeleteLocalPermission deleteLocalPermission = new DeleteLocalPermission();
+            DeletePermission deleteLocalPermission = new DeletePermission();
             deleteLocalPermission.ShowDialog();
         }
 
         private void btn_AddGroup_Click(object sender, EventArgs e)
         {
-            AddLocalGroup addLocalGroup = new AddLocalGroup();
+            AddGroup addLocalGroup = new AddGroup();
             addLocalGroup.ShowDialog();
         }
 
@@ -56,6 +56,12 @@ namespace Active_Directory
         private void btn_ShowGroup_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("cmd", "/k " + "net group");
+        }
+
+        private void btn_ShowUserInGroup_Click(object sender, EventArgs e)
+        {
+            ShowUserInGroup showUserInGroup = new ShowUserInGroup();
+            showUserInGroup.ShowDialog();
         }
     }
 }

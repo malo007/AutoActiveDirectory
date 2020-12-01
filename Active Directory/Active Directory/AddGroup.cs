@@ -10,25 +10,25 @@ using System.Windows.Forms;
 
 namespace Active_Directory
 {
-    public partial class DeleteLocalGroup : Form
+    public partial class AddGroup : Form
     {
-        public DeleteLocalGroup()
+        public AddGroup()
         {
             InitializeComponent();
         }
 
-        private void btn_Delete_Click(object sender, EventArgs e)
+        private void btn_Add_Click(object sender, EventArgs e)
         {
             try
             {
 
                 if (tb_Group.Text != "")
                 {
-                    System.Diagnostics.Process.Start("cmd", "/c " + "net group " + tb_Group.Text + " /delete /domain");
+                    System.Diagnostics.Process.Start("cmd", "/c " + "net group " + tb_Group.Text + " /add /domain");
                 }
                 else
                 {
-                    throw new ArgumentException("Please insert group!");
+                    throw new ArgumentException("Please insert group name!");
 
 
                 }

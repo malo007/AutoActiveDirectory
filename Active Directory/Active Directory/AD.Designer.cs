@@ -36,6 +36,8 @@
             this.btn_AddLocalGroup = new System.Windows.Forms.Button();
             this.btn_ShowGroup = new System.Windows.Forms.Button();
             this.btn_ShowUser = new System.Windows.Forms.Button();
+            this.btn_SwitchGroupForUser = new System.Windows.Forms.Button();
+            this.btn_ShowUserInGroup = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_AddUser
@@ -117,11 +119,32 @@
             this.btn_ShowUser.UseVisualStyleBackColor = true;
             this.btn_ShowUser.Click += new System.EventHandler(this.btn_ShowUser_Click);
             // 
+            // btn_SwitchGroupForUser
+            // 
+            this.btn_SwitchGroupForUser.Location = new System.Drawing.Point(279, 307);
+            this.btn_SwitchGroupForUser.Name = "btn_SwitchGroupForUser";
+            this.btn_SwitchGroupForUser.Size = new System.Drawing.Size(261, 55);
+            this.btn_SwitchGroupForUser.TabIndex = 10;
+            this.btn_SwitchGroupForUser.Text = "Switch Group for User";
+            this.btn_SwitchGroupForUser.UseVisualStyleBackColor = true;
+            // 
+            // btn_ShowUserInGroup
+            // 
+            this.btn_ShowUserInGroup.Location = new System.Drawing.Point(12, 307);
+            this.btn_ShowUserInGroup.Name = "btn_ShowUserInGroup";
+            this.btn_ShowUserInGroup.Size = new System.Drawing.Size(261, 55);
+            this.btn_ShowUserInGroup.TabIndex = 9;
+            this.btn_ShowUserInGroup.Text = "Show User In Group";
+            this.btn_ShowUserInGroup.UseVisualStyleBackColor = true;
+            this.btn_ShowUserInGroup.Click += new System.EventHandler(this.btn_ShowUserInGroup_Click);
+            // 
             // AD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(554, 345);
+            this.ClientSize = new System.Drawing.Size(554, 389);
+            this.Controls.Add(this.btn_SwitchGroupForUser);
+            this.Controls.Add(this.btn_ShowUserInGroup);
             this.Controls.Add(this.btn_ShowGroup);
             this.Controls.Add(this.btn_ShowUser);
             this.Controls.Add(this.btn_DeleteLocalGroup);
@@ -131,7 +154,7 @@
             this.Controls.Add(this.btn_DeleteUser);
             this.Controls.Add(this.btn_AddUser);
             this.Name = "AD";
-            this.Text = "Form1";
+            this.Text = "AD";
             this.ResumeLayout(false);
 
         }
@@ -146,6 +169,8 @@
         private System.Windows.Forms.Button btn_AddLocalGroup;
         private System.Windows.Forms.Button btn_ShowGroup;
         private System.Windows.Forms.Button btn_ShowUser;
+        private System.Windows.Forms.Button btn_SwitchGroupForUser;
+        private System.Windows.Forms.Button btn_ShowUserInGroup;
     }
 }
 

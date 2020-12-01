@@ -48,17 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddLocalGroup.cs">
+    <Compile Include="AddGroup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddLocalGroup.Designer.cs">
-      <DependentUpon>AddLocalGroup.cs</DependentUpon>
+    <Compile Include="AddGroup.Designer.cs">
+      <DependentUpon>AddGroup.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddLocalPermission.cs">
+    <Compile Include="AddPermission.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddLocalPermission.Designer.cs">
-      <DependentUpon>AddLocalPermission.cs</DependentUpon>
+    <Compile Include="AddPermission.Designer.cs">
+      <DependentUpon>AddPermission.cs</DependentUpon>
     </Compile>
     <Compile Include="AddUser.cs">
       <SubType>Form</SubType>
@@ -66,17 +66,17 @@
     <Compile Include="AddUser.Designer.cs">
       <DependentUpon>AddUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteLocalGroup.cs">
+    <Compile Include="DeleteGroup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteLocalGroup.Designer.cs">
-      <DependentUpon>DeleteLocalGroup.cs</DependentUpon>
+    <Compile Include="DeleteGroup.Designer.cs">
+      <DependentUpon>DeleteGroup.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteLocalPermission.cs">
+    <Compile Include="DeletePermission.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteLocalPermission.Designer.cs">
-      <DependentUpon>DeleteLocalPermission.cs</DependentUpon>
+    <Compile Include="DeletePermission.Designer.cs">
+      <DependentUpon>DeletePermission.cs</DependentUpon>
     </Compile>
     <Compile Include="DeleteUser.cs">
       <SubType>Form</SubType>
@@ -104,20 +104,20 @@
     <Compile Include="ShowUser.Designer.cs">
       <DependentUpon>ShowUser.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddLocalGroup.resx">
-      <DependentUpon>AddLocalGroup.cs</DependentUpon>
+    <EmbeddedResource Include="AddGroup.resx">
+      <DependentUpon>AddGroup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddLocalPermission.resx">
-      <DependentUpon>AddLocalPermission.cs</DependentUpon>
+    <EmbeddedResource Include="AddPermission.resx">
+      <DependentUpon>AddPermission.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddUser.resx">
       <DependentUpon>AddUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteLocalGroup.resx">
-      <DependentUpon>DeleteLocalGroup.cs</DependentUpon>
+    <EmbeddedResource Include="DeleteGroup.resx">
+      <DependentUpon>DeleteGroup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteLocalPermission.resx">
-      <DependentUpon>DeleteLocalPermission.cs</DependentUpon>
+    <EmbeddedResource Include="DeletePermission.resx">
+      <DependentUpon>DeletePermission.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeleteUser.resx">
       <DependentUpon>DeleteUser.cs</DependentUpon>
