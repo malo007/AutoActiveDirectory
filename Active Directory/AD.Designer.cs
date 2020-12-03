@@ -143,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(554, 389);
+            this.ClientSize = new System.Drawing.Size(553, 389);
             this.Controls.Add(this.btn_SwitchGroupForUser);
             this.Controls.Add(this.btn_ShowUserInGroup);
             this.Controls.Add(this.btn_ShowGroup);
